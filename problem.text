@@ -1,0 +1,9 @@
+- attach an onClick event listener to the form
+- prevent the form from performing its default action
+- get the values from the fields in the form (username, message, since)
+- make AJAX request to the `METHOD/path` of the form (and include the data from the form)
+- handle the response from the server
+  - iterate the chats in the response
+  - add each to the list of previous chats
+- update the DOM with the the timestamp of the last request (set the value of the 'since' field)
+- reset the message to an empty field
